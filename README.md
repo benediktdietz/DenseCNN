@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## DenseNet Implementation for Analysis of 3D Full Body MRTs
 
-You can use the [editor on GitHub](https://github.com/benediktdietz/DenseCNN/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Implementation of a DenseConvNet with 'Bottleneck'- and 'Transition'-layers for the analysis and prediction of Diabetes related features in three-dimensional full-body MRT scans. Before the final fully-connected layers leading to the individual output nodes i.e. predictions, an embebedding layer is optimized on all of the given target labels. This embedding is used for clusterings and to reveal patterns through TSNE.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Data
 
-### Markdown
+The data used for this work consisted of approximately 2.5k full-body MRT scans.
+Due to signed NDAs I cannot make this data publicly available.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Three-dimensional image arrays to be used with the code should be stored in .....
 
-```markdown
-Syntax highlighted code block
+### Code
 
-# Header 1
-## Header 2
-### Header 3
+The code is written in Python and should be easily runnable by executing the main script.
 
-- Bulleted
-- List
+### Results
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/benediktdietz/DenseCNN/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Some of the resulting plots
