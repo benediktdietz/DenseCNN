@@ -11,7 +11,7 @@ Three-dimensional image arrays to be used with the code should be stored in ....
 
 ### Code
 
-The code is written in Python and should be easily runnable by executing the main script.
+The [code](new_all.py) is written in Python and should be easily runnable by executing the main script.
 
 ### Results
 
